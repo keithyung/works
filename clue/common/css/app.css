@@ -52,6 +52,7 @@ textarea {
 
 body {
 	text-align:center;padding:0;margin:0;
+    background-color:#374046;
 }
 div {
 	position:relative;
@@ -60,48 +61,119 @@ div {
 
 .main {
 	font-size:0;
-	width:961px;margin:0 auto;padding:10px 0 10px 0;
+	width:993px;margin:0 auto;padding:15px 0 15px 0;
+}
+.ch {
+    position:absolute;top:15px;left:-50px;bottom:15px;
+    background-color:#3e464c;
+    width:42px;
+}
+.ch div {
+    position:absolute;top:50%;margin-top:-120px;text-align:center;
+    font-size:22px;color:#b6b6b6;
+    width:42px;line-height:80px;height:240px;
 }
 .col {
 	vertical-align:top;
 	display:inline-block;
 	font-size:15px;
 	width:240px;
-	border-left:1px solid #f0f0f0;
-}
-.col:last-child {
-	border-right:1px solid #f0f0f0;
+    margin-right:8px;
 }
 	.head {
 		padding:15px 10px 15px 10px;text-align:center;
-		background-color:#f0f0f0;
 		font-size:18px;
 	}
 	.body {
-		padding:10px 10px 10px 10px;
+
 	}
 		.i {
-			padding:10px;min-height:76px;
-			text-align:left;
-			border-bottom:1px dotted #ddd;
+			padding:10px;min-height:83px;
+			border-top:1px solid #ddd;
+            z-index:1;
 		}
 		.i:hover {
-			background-color:#f0f0f0;
+            z-index:2;
+            -moz-box-shadow:0px 0px 20px #777;
+            -webkit-box-shadow: 0px 0px 20px #777;
+            box-shadow:0px 0px 20px #777;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#777777')";
+            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#777777');
 		}
 			.t {
 				display:inline-block;padding-bottom:4px;margin-bottom:10px;
 				font-size:14px;font-weight:bold;
-				border-bottom:2px solid #ccc;
 			}
 			.i div {
 				font-size:14px;line-height:25px;
 			}
 
+.purple-light .head {
+    background-color:#9C27B0;color:#fff;
+}
+.blue-light .head {
+    background-color:#2196F3;color:#fff;
+}
+.green-light .head {
+    background-color:#4CAF50;color:#fff;
+}
+.orange-light .head {
+    background-color:#FF5722;color:#fff;
+}
+
+.purple-light .i {
+    border-top-color:#9C27B0;
+}
+.blue-light .i {
+    border-top-color:#2196F3;
+}
+.green-light .i {
+    border-top-color:#4CAF50;
+}
+.orange-light .i {
+    border-top-color:#FF5722;
+}
 
 
+.purple-dark {
+    background-color:#7B1FA2;color:#fff;
+}
+.purple-primary {
+    background-color:#9C27B0;color:#fff;
+}
+.purple-light {
+    background-color:#E1BEE7;color:#212121;
+}
 
+.blue-dark {
+    background-color:#1976D2;color:#fff;
+}
+.blue-primary {
+    background-color:#2196F3;color:#fff;
+}
+.blue-light {
+    background-color:#BBDEFB;color:#212121;
+}
 
+.green-dark {
+    background-color:#388E3C;color:#fff;
+}
+.green-primary {
+    background-color:#4CAF50;color:#fff;
+}
+.green-light {
+    background-color:#C8E6C9;color:#212121
+}
 
+.orange-dark {
+    background-color:#E64A19;color:#fff;
+}
+.orange-primary {
+    background-color:#FF5722;color:#fff;
+}
+.orange-light {
+    background-color:#FFCCBC;color:#212121
+}
 
 /* ==========================================================================
    Helper classes
