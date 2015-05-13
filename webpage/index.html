@@ -19,126 +19,109 @@
 
 <div class="main">
 
-	<div class="life live orange-light">
+	<div class="life orange-light h90">
 		<div class="head">用户</div>
 		<div class="body">
-			<div class="ia">
+			<div class="ia w100">
 				输入URL
 			</div>
 			<div class="ia">
 				&nbsp;
 			</div>
 			<div class="ia">
-				呈现<br>e
-			</div>
-			<div class="ia">
-				呈现<br>e
-			</div>
-			<div class="ia">
-				呈现<br>e
-			</div>
-			<div class="ia active">
 				&nbsp;
 			</div>
 			<div class="ia">
-				关闭
+				&nbsp;
+			</div>
+			<div class="ia">
+				看到网页
+			</div>
+			<div class="ia">
+				进行操作
+			</div>
+			<div class="ia w100">
+				关闭网页
 			</div>
 		</div>
 	</div>
 	
-	<div class="life live deep-orange-light">
+	<div class="life deep-orange-light">
 		<div class="head">浏览器</div>
 		<div class="body">
-			<div class="ia">
+			<div class="ia w100">
 				&nbsp;
 			</div>
 			<div class="ia">
-				连接
+				请求DNS服务器
 			</div>
 			<div class="ia">
-				加载网页<br>解析<br>c d
+				建立TCP连接
 			</div>
 			<div class="ia">
-				加载资源<br>渲染<br>d
+				接收网页<br>HTML解析<br>生成DOM树
 			</div>
 			<div class="ia">
-				执行代码<br>渲染<br>d
+				加载资源<br>
+				CSS解析<br>
+				生成Style Object<br>
+				执行JS<br>
+				更新DOM树<br>
+				<span title="DOM 树和 Style Object reflow 结合得到 Render Tree">渲染</span>
+			</div>
+			<div class="ia">
+				响应用户操作<br>
+				加载资源<br>
+				执行JS<br>
+				更新Style Object<br>
+				更新DOM树<br>
+				<span title="DOM 树和 Style Object reflow 结合得到 Render Tree">渲染</span>
 				<div class="connect">&#8645;</div>
 			</div>
-			<div class="ia active">
-				&nbsp;
-				<div class="connect">&#8645;</div>
-			</div>
-			<div class="ia">
+			<div class="ia w100">
 				&nbsp;
 			</div>
 		</div>
 	</div>
 	
-	<div class="life brown-light">
+	<div class="life brown-light h90">
 		<div class="head">服务器</div>
 		<div class="body">
-			<div class="ia">
+			<div class="ia w100">
 				&nbsp;
 			</div>
 			<div class="ia">
-				连接
+				解析DNS返回IP地址<br>
+				[DNS服务器]
 				<div class="connect">&#8645;</div>
 			</div>
 			<div class="ia">
-				发送网页<br>a b
+				建立TCP连接<br>
+				[WEB服务器]
 				<div class="connect">&#8645;</div>
 			</div>
 			<div class="ia">
-				发送资源
+				发送网页<br>
+				[WEB服务器]
 				<div class="connect">&#8645;</div>
 			</div>
 			<div class="ia">
-				&nbsp;
-			</div>
-			<div class="ia active">
-				&nbsp;
+				发送资源<br>
+				[WEB或CDN服务器]
 				<div class="connect">&#8645;</div>
 			</div>
 			<div class="ia">
+				发送资源<br>
+				[WEB或CDN服务器]
+				<div class="connect">&#8645;</div>
+			</div>
+			<div class="ia w100">
 				&nbsp;
 			</div>
 		</div>
 	</div>
 
 </div>
-
-
-<div class="main">
-
-	<div class="life">
-		<div class="body">
-			<div class="ib">
-				<div class="t">产品设计</div>
-				<div>线框图</div>
-			</div>
-			<div class="ib">
-				<div class="t">UI设计</div>
-				<div>效果图(骨架、皮肤、素材)</div>
-			</div>
-			<div class="ib">
-				<div class="t">网页制作</div>
-				<div>代码(html、css、js、image...)</div>
-			</div>
-			<div class="ib">
-				<div class="t">逻辑功能实现</div>
-				<div>分解和重组(模板文件和数据)</div>
-			</div>
-			<div class="ib">
-				<div class="t">部署</div>
-				<div>所有文件按照规则放置的服务器上</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-
 
 <script src="common/js/jquery-1.11.2.min.js"></script>
 <script src="common/js/plugins.js"></script>

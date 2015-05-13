@@ -50,6 +50,10 @@ textarea {
 
    ============================================================= */
 
+body,pre {
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
 body {
     text-align:center;padding:0;margin:0;
     background-color:#374046;
@@ -60,20 +64,18 @@ div {
 }
 
 .main {
-    width:1300px;padding:20px;
+    width:1113px;padding:20px;
     text-align:left;
-}
-.live {
-
 }
 .life {
     margin-bottom:10px;
+    font-size:0;
 }
 .head {
     display:inline-block;
-    width:70px;font-size:16px;padding:5px;
+    width:70px;font-size:16px;padding:20px 10px 20px 0;
     vertical-align:middle;text-align:right;
-    min-height:110px;
+    min-height:176px;
 }
 .body {
     display:inline-block;
@@ -83,15 +85,15 @@ div {
 }
     .ia {
         display:inline-block;vertical-align:top;
-        width:140px;padding:20px 5px 20px 5px;
+        width:160px;padding:20px 5px 20px 5px;
         font-size:16px;
-        min-height:110px;
+        min-height:176px;
     }
     .ia:hover {
 
     }
-    .ia.active {
-        background-color:#ddd;
+    .ia.w100 {
+        width:100px;
     }
 
     .ib {
@@ -111,8 +113,15 @@ div {
         }
 
 .connect {
-    position:absolute;top:-25px;left:55px;width:30px;height:40px;
+    position:absolute;top:-25px;left:65px;width:30px;height:40px;
     color:#000;font-size:30px;
+}
+
+.h90 .head {
+    min-height:90px;
+}
+.h90 .ia {
+    min-height:90px;
 }
 
 
@@ -128,44 +137,17 @@ div {
 
 .orange-light .ia {
     border-right:1px solid #F57C00;
+    background-color:#FFE0B2;color:#212121
 }
 .deep-orange-light .ia {
     border-right:1px solid #E64A19;
+    background-color:#FFCCBC;color:#212121
 }
 .brown-light .ia {
     border-right:1px solid #5D4037;
-}
-
-
-.orange-dark {
-    background-color:#F57C00;color:#fff;
-}
-.orange-primary {
-    background-color:#FF9800;color:#fff;
-}
-.orange-light {
-    background-color:#FFE0B2;color:#212121
-}
-
-.deep-orange-dark {
-    background-color:#E64A19;color:#fff;
-}
-.deep-orange-primary {
-    background-color:#FF5722;color:#fff;
-}
-.deep-orange-light {
-    background-color:#FFCCBC;color:#212121
-}
-
-.brown-dark {
-    background-color:#5D4037;color:#fff;
-}
-.brown-primary {
-    background-color:#795548;color:#fff;
-}
-.brown-light {
     background-color:#D7CCC8;color:#212121
 }
+
 
 
 /* ==========================================================================

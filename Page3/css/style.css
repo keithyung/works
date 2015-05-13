@@ -59,11 +59,30 @@ body {
     padding:40px;
     font-size:15px;
     line-height:25px;
+    background-image:url(../img/pattern.png);
+    background-repeat:repeat;
+}
+
+.colorful {
+    background:
+        linear-gradient(45deg, hsla(36, 100%, 44%, 1) 0%, hsla(36, 100%, 44%, 0) 70%),
+        linear-gradient(135deg, hsla(182, 98%, 50%, 1) 10%, hsla(182, 98%, 50%, 0) 80%),
+        linear-gradient(225deg, hsla(60, 93%, 50%, 1) 10%, hsla(60, 93%, 50%, 0) 80%),
+        linear-gradient(315deg, hsla(314, 96%, 42%, 1) 100%, hsla(314, 96%, 42%, 0) 70%);
+    }
+
+header {
+    padding:40px;
+    color:#fff;
 }
 
 hr {
     border:none;
     border-bottom:1px dotted #444;
+}
+
+.content {
+    padding:40px;
 }
 
 .menu {
@@ -74,6 +93,7 @@ hr {
 
     margin-right:0;
 }
+
 .item {
     box-sizing:border-box;
     display:inline-block;
@@ -91,10 +111,14 @@ hr {
 .item > a {
     box-sizing:border-box;
     display:block;
-    background-color:#f0f0f0;
     padding:10px;
+    background-color:#f9f9f9;
+    color:#444;
     text-decoration:none;
+    border-radius:5px;
+    box-shadow:1px 1px 8px #ccc;
 }
+
 .item > a:hover {
     background-color:#ddd;
 }
@@ -103,8 +127,8 @@ hr {
     position:relative;
     padding:10px;
     margin-top:50px;
-    border:1px solid #eee;
-    background-color:#f9f9f9;
+    border:1px solid #ddd;
+    border-radius:5px;
 }
 .box > h3 {
     position:absolute;
@@ -115,6 +139,7 @@ hr {
     padding:0;
     height:40px;
     line-height:40px;
+    color:#444;
 }
 .box > h3 > a {
     text-decoration:none;

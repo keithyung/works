@@ -50,6 +50,10 @@ textarea {
 
    ============================================================= */
 
+body,pre {
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
 body {
 	text-align:center;padding:0;margin:0;
     background-color:#374046;
