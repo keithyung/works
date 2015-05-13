@@ -1,4 +1,8 @@
 
+body,pre {
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
 body {
 	padding:40px;
 	font-size:15px;

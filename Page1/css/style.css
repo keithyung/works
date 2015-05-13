@@ -1,4 +1,8 @@
 
+body,pre {
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
 body {
 	padding:40px;
 	font-size:15px;
@@ -8,4 +12,17 @@ body {
 hr {
 	border:none;
 	border-bottom:1px dotted #444;
+}
+
+pre {
+	background-color:#f0f0f0;
+	border:1px solid #eee;
+	padding:10px;
+	font-size:14px;
+	line-height:20px;
+}
+
+.example {
+	border:1px solid #ddd;
+	padding:10px;
 }
