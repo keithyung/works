@@ -68,14 +68,14 @@ div {
 	width:1006px;margin:0 auto;padding:15px 0 15px 201px;
 }
 .ch {
-    position:absolute;top:35px;left:20px;
+    position:absolute;top:15px;left:0;
     background-color:#fff;
-    width:160px;line-height:40px;height:40px;
-    text-align:center;font-size:22px;color:#444;
+    width:140px;line-height:45px;height:45px;
+    text-align:center;font-size:18px;color:#444;
 }
 .col0 {
     position:absolute;top:15px;left:0;bottom:15px;width:200px;
-    padding:60px 20px 0 20px;
+    padding:50px 20px 0 20px;
     font-size:14px;color:#444;
     text-align:left;
     background-color:#ddd;
