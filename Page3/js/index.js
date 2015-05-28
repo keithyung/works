@@ -19,3 +19,14 @@ $(function() {
 	
 });
 
+
+console.log('%c带有样式的文字','color:#fff;background-color:orange;');
+
+console.table([['a','b','c'],[1,2,3],[4,5,6]]);
+
+console.assert(!true, 'This is not true');
+
+console.time('timeLabel');
+
+console.timeEnd('timeLabel');
+
